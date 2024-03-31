@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- 
+Mobile Devices: 319px — 480px
+iPads and Tablets: 481px — 1200px
+Laptops: 1201px — 1600px
+Desktops: 1601px and more
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aquamarine;
+        }
+
+        @media (min-width: 319px) and (max-width: 480px) {
+            body {
+                background-color: red;
+            }
+        }
+
+        @media (min-width: 481px) and (max-width: 1200px) {
+            body {
+                background-color: blue;
+            }
+        }
+
+        @media (min-width: 1201px) and (max-width: 1600px) {
+            body {
+                background-color: green;
+            }
+        }
+
+        @media (min-width: 1601px) {
+            body {
+                background-color: yellow;
+            }
+        }
+    </style>
+</head>
+
+<body>
+</body>
+
+</html>
